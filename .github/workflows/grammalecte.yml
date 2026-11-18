@@ -1,0 +1,13 @@
+name: "Vérification de l'orthographe et la grammaire avec Grammalecte"
+on: push
+jobs:
+  grammaire_et_orthographe:
+    runs-on: ubuntu-latest
+    container: python:3.12
+    steps:
+      - name: "Pip install grammalint"
+        run: "python3 -m pip install git+https://gitlab.in2p3.fr/sonny.lion/grammalint.git"
+      - name: "Checkout des fichiers du projet"
+        uses: actions/checkout@v7
+      - name: "Exécution de grammalint"
+        run: "python -m grammalint --skip-frontmatter-keys 'ingredients' -i recettes/**/*.md"
