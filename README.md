@@ -1,7 +1,7 @@
 # Mes Recettes
 
 Un livre en français de recettes de cuisine,
-publiables par [Astro Chef](https://gitlab.in2p3.fr/sonny.lion/astro-chef).
+publiables par [Astro Chef](https://astro-chef-55c655.pages.in2p3.fr/fr/).
 
 Tous contenus soumis à la licence
 Creative Commons Attribution-ShareAlike 4.0 International
