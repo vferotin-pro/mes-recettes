@@ -14,7 +14,7 @@ tags:
   - rapide
   - végétarien
   - sans_cuisson
-image: null
+image: ./saladeDeFruits.jpg
 ingredients:
   - "fruits de saison"
 conseils:
